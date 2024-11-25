@@ -17,4 +17,9 @@ public class MailBox {
         }
         infos.clear();
     }
+
+    public List<MailInfo> getInfos() {
+        return infos;
+    }
 }
+
